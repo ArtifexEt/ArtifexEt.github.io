@@ -1,0 +1,378 @@
+@keyframes employee {
+  0% {
+    background-position: -143px -143px; }
+  20% {
+    background-position: -281px -143px; }
+  40% {
+    background-position: -419px -143px; }
+  60% {
+    background-position: -557px -143px; }
+  80% {
+    background-position: -695px -143px; }
+  100% {
+    background-position: -5px -281px; } }
+
+@keyframes coffee {
+  0% {
+    background-position: -281px -5px; }
+  30% {
+    background-position: -419px -5px; }
+  50% {
+    background-position: -557px -5px; }
+  70% {
+    background-position: -695px -5px; }
+  100% {
+    background-position: -5px -143px; } }
+
+@keyframes monitor {
+  0% {
+    background-position: -419px -557px; }
+  20% {
+    background-position: -557px -557px; }
+  40% {
+    background-position: -695px -557px; }
+  60% {
+    background-position: -5px -695px; }
+  80% {
+    background-position: -143px -695px; }
+  100% {
+    background-position: -419px -557px; } }
+
+@keyframes pc {
+  0% {
+    background-position: -281px -695px; }
+  25% {
+    background-position: -419px -695px; }
+  50% {
+    background-position: -557px -695px; }
+  75% {
+    background-position: -695px -695px; }
+  100% {
+    background-position: -281px -695px; } }
+
+.sprite {
+  background-image: url(../../../public/assets/sprites/atlas.png);
+  background-repeat: no-repeat;
+  display: block; }
+
+.chair-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -5px -5px; }
+
+.chair-2 {
+  width: 128px;
+  height: 128px;
+  background-position: -143px -5px; }
+
+.coffee-frame-0 {
+  width: 128px;
+  height: 128px;
+  background-position: -281px -5px; }
+
+.coffee-frame-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -419px -5px; }
+
+.coffee-frame-2 {
+  width: 128px;
+  height: 128px;
+  background-position: -557px -5px; }
+
+.coffee-frame-3 {
+  width: 128px;
+  height: 128px;
+  background-position: -695px -5px; }
+
+.coffee-frame-4 {
+  width: 128px;
+  height: 128px;
+  background-position: -5px -143px; }
+
+.employee-frame-0 {
+  width: 128px;
+  height: 128px;
+  background-position: -143px -143px; }
+
+.employee-frame-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -281px -143px; }
+
+.employee-frame-2 {
+  width: 128px;
+  height: 128px;
+  background-position: -419px -143px; }
+
+.employee-frame-3 {
+  width: 128px;
+  height: 128px;
+  background-position: -557px -143px; }
+
+.employee-frame-4 {
+  width: 128px;
+  height: 128px;
+  background-position: -695px -143px; }
+
+.employee-frame-5 {
+  width: 128px;
+  height: 128px;
+  background-position: -5px -281px; }
+
+.explode0 {
+  width: 128px;
+  height: 128px;
+  background-position: -143px -281px; }
+
+.explode-frame-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -281px -281px; }
+
+.explode-frame-2 {
+  width: 128px;
+  height: 128px;
+  background-position: -419px -281px; }
+
+.explode-frame-3 {
+  width: 128px;
+  height: 128px;
+  background-position: -557px -281px; }
+
+.explode-frame-4 {
+  width: 128px;
+  height: 128px;
+  background-position: -695px -281px; }
+
+.explode-frame-5 {
+  width: 128px;
+  height: 128px;
+  background-position: -5px -419px; }
+
+.explode-frame-6 {
+  width: 128px;
+  height: 128px;
+  background-position: -143px -419px; }
+
+.explode-frame-7 {
+  width: 128px;
+  height: 128px;
+  background-position: -281px -419px; }
+
+.explode-frame-8 {
+  width: 128px;
+  height: 128px;
+  background-position: -419px -419px; }
+
+.explode-frame-9 {
+  width: 128px;
+  height: 128px;
+  background-position: -557px -419px; }
+
+.floor-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -695px -419px; }
+
+.floor-2 {
+  width: 128px;
+  height: 128px;
+  background-position: -5px -557px; }
+
+.floor-3 {
+  width: 128px;
+  height: 128px;
+  background-position: -143px -557px; }
+
+.keyboard-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -281px -557px; }
+
+.monitor-frame-0 {
+  width: 128px;
+  height: 128px;
+  background-position: -419px -557px; }
+
+.monitor-frame-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -557px -557px; }
+
+.monitor-frame-2 {
+  width: 128px;
+  height: 128px;
+  background-position: -695px -557px; }
+
+.monitor-frame-3 {
+  width: 128px;
+  height: 128px;
+  background-position: -5px -695px; }
+
+.monitor-frame-4 {
+  width: 128px;
+  height: 128px;
+  background-position: -143px -695px; }
+
+.pc-frame-0 {
+  width: 128px;
+  height: 128px;
+  background-position: -281px -695px; }
+
+.pc-frame-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -419px -695px; }
+
+.pc-frame-2 {
+  width: 128px;
+  height: 128px;
+  background-position: -557px -695px; }
+
+.pc-frame-3 {
+  width: 128px;
+  height: 128px;
+  background-position: -695px -695px; }
+
+.pizza-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -833px -5px; }
+
+.refrigerator-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -833px -143px; }
+
+.table-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -833px -281px; }
+
+.table-2 {
+  width: 128px;
+  height: 128px;
+  background-position: -833px -419px; }
+
+.wall-corner-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -833px -557px; }
+
+.wall-doors-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -833px -695px; }
+
+.wall-window-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -5px -833px; }
+
+.wall-x-conector-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -143px -833px; }
+
+.wall-1 {
+  width: 128px;
+  height: 128px;
+  background-position: -281px -833px; }
+
+.map {
+  margin: 100px;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative; }
+  .map .row-1 {
+    position: absolute;
+    top: -84px; }
+  .map .row-6 {
+    position: absolute;
+    bottom: -84px; }
+  .map .field-1 {
+    position: absolute;
+    left: -84px; }
+  .map .field-6 {
+    position: absolute;
+    right: -84px; }
+  .map .row-5 .field-6 {
+    z-index: 1; }
+  .map .pc-table {
+    position: absolute;
+    top: -16px; }
+  .map .hidden {
+    display: none; }
+  .map .pc {
+    animation: pc 1s steps(1) infinite;
+    position: absolute;
+    top: -14px;
+    left: -43px; }
+  .map .monitor {
+    animation: monitor 1s steps(1) infinite;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    transform: rotate(45deg); }
+  .map .keyboard {
+    position: absolute;
+    top: 9px;
+    left: -59px;
+    transform: rotate(5deg); }
+  .map .chair {
+    position: absolute;
+    top: -71px;
+    left: 60px;
+    transform: rotate(5deg);
+    z-index: 1; }
+  .map .pc-table,
+  .map .keyboard,
+  .map .pc,
+  .map .monitor {
+    z-index: 2; }
+  .map .employee {
+    position: absolute;
+    animation: employee 1s steps(1) infinite;
+    top: -80px;
+    left: 61px;
+    z-index: 3;
+    transform: rotate(5deg); }
+  .map .refrigerator {
+    position: absolute;
+    top: 8px;
+    left: -16px;
+    transform: rotate(-90deg); }
+  .map .coffee-pizza-table {
+    position: absolute;
+    top: 15px;
+    left: -24px;
+    transform: rotate(90deg);
+    z-index: 1; }
+  .map .coffee {
+    animation: coffee 1s steps(1) infinite;
+    position: absolute;
+    top: -32px;
+    left: -15px;
+    z-index: 1;
+    transform: scale(0.5); }
+  .map .pizza {
+    position: absolute;
+    top: 32px;
+    left: -16px;
+    z-index: 1;
+    transform: scale(0.7) rotate(-20deg); }
+  .map div {
+    display: flex; }
+    .map div div {
+      display: inline-block;
+      width: 128px;
+      height: 128px;
+      flex-shrink: 0;
+      position: relative; }
+    .map div .flip-angle-90 {
+      transform: rotate(90deg); }
+    .map div .flip-angle-180 {
+      transform: rotate(180deg); }
+    .map div .flip-angle-minus-90 {
+      transform: rotate(-90deg); }

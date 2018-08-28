@@ -1,0 +1,163 @@
+.map {
+  margin: 100px;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative; }
+  .map img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; }
+  .map .row-1 {
+    position: absolute;
+    top: -84px; }
+  .map .row-6 {
+    position: absolute;
+    bottom: -84px; }
+  .map .field-1 {
+    position: absolute;
+    left: -84px; }
+  .map .field-6 {
+    position: absolute;
+    right: -84px; }
+  .map .row-5 .field-6 {
+    z-index: 1; }
+  .map .pc-table {
+    position: absolute;
+    top: -16px; }
+  .map .hidden {
+    display: none; }
+  .map .pc {
+    animation-name: pc;
+    animation-duration: 400ms;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: -14px;
+    left: -43px; }
+  .map .monitor {
+    animation-name: monitor;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    transform: rotate(45deg); }
+  .map .keyboard {
+    position: absolute;
+    top: 9px;
+    left: -59px;
+    transform: rotate(5deg); }
+  .map .chair {
+    position: absolute;
+    top: -71px;
+    left: 60px;
+    transform: rotate(5deg);
+    z-index: 1; }
+  .map .pc-table,
+  .map .keyboard,
+  .map .pc,
+  .map .monitor {
+    z-index: 2; }
+  .map .employee {
+    position: absolute;
+    animation-name: employee;
+    animation-duration: 600ms;
+    animation-iteration-count: infinite;
+    top: -80px;
+    left: 61px;
+    z-index: 3;
+    transform: rotate(5deg); }
+  .map .refrigerator {
+    position: absolute;
+    top: 8px;
+    left: -16px;
+    transform: rotate(-90deg); }
+  .map .coffee-pizza-table {
+    position: absolute;
+    top: 15px;
+    left: -24px;
+    transform: rotate(90deg);
+    z-index: 1; }
+  .map .coffee {
+    position: absolute;
+    animation-name: coffee;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: -32px;
+    left: -15px;
+    z-index: 1;
+    transform: scale(0.5); }
+  .map .pizza {
+    position: absolute;
+    top: 32px;
+    left: -16px;
+    z-index: 1;
+    transform: scale(0.7) rotate(-20deg); }
+  .map div {
+    display: flex; }
+    .map div div {
+      display: inline-block;
+      width: 128px;
+      height: 128px;
+      flex-shrink: 0;
+      position: relative; }
+    .map div .flip-angle-90 img {
+      transform: rotate(90deg); }
+    .map div .flip-angle-180 img {
+      transform: rotate(180deg); }
+    .map div .flip-angle-minus-90 img {
+      transform: rotate(-90deg); }
+
+@keyframes employee {
+  0% {
+    background-image: url("../../assets/sprites/employee/employee20.png"); }
+  20% {
+    background-image: url("../../assets/sprites/employee/employee21.png"); }
+  40% {
+    background-image: url("../../assets/sprites/employee/employee22.png"); }
+  60% {
+    background-image: url("../../assets/sprites/employee/employee23.png"); }
+  80% {
+    background-image: url("../../assets/sprites/employee/employee24.png"); }
+  100% {
+    background-image: url("../../assets/sprites/employee/employee25.png"); } }
+
+@keyframes coffee {
+  0% {
+    background-image: url("../../assets/sprites/coffee/coffee0.png"); }
+  30% {
+    background-image: url("../../assets/sprites/coffee/coffee1.png"); }
+  50% {
+    background-image: url("../../assets/sprites/coffee/coffee2.png"); }
+  70% {
+    background-image: url("../../assets/sprites/coffee/coffee3.png"); }
+  100% {
+    background-image: url("../../assets/sprites/coffee/coffee4.png"); } }
+
+@keyframes monitor {
+  0% {
+    background-image: url("../../assets/sprites/monitor/monitor0.png"); }
+  20% {
+    background-image: url("../../assets/sprites/monitor/monitor1.png"); }
+  40% {
+    background-image: url("../../assets/sprites/monitor/monitor2.png"); }
+  60% {
+    background-image: url("../../assets/sprites/monitor/monitor3.png"); }
+  80% {
+    background-image: url("../../assets/sprites/monitor/monitor4.png"); }
+  100% {
+    background-image: url("../../assets/sprites/monitor/monitor0.png"); } }
+
+@keyframes pc {
+  0% {
+    background-image: url("../../assets/sprites/pc/pc0.png"); }
+  25% {
+    background-image: url("../../assets/sprites/pc/pc1.png"); }
+  50% {
+    background-image: url("../../assets/sprites/pc/pc2.png"); }
+  75% {
+    background-image: url("../../assets/sprites/pc/pc3.png"); }
+  100% {
+    background-image: url("../../assets/sprites/pc/pc0.png"); } }
