@@ -1,0 +1,23 @@
+{
+  "name": "podsumowanie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "concurrently \"npm:copy-requirejs\" \"tsc\" \"node-sass src/styles/sass/ -o src/styles/css/\"",
+    "copy-requirejs": "copyfiles --flat node_modules/requirejs/require.js src/scripts/libs",
+    "start": "concurrently \"npm:sass\" \"npm:tsc\"",
+    "sass": "node-sass -w src/styles/sass/ -o src/styles/css/",
+    "tsc": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.6.1",
+    "copyfiles": "^2.0.0",
+    "node-sass": "^4.9.3",
+    "requirejs": "^2.3.5",
+    "typescript": "^3.0.1"
+  }
+}

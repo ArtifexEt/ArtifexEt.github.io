@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles/css/main.css">
+</head>
+
+<body>
+    <div>
+        <div class="score"></div>
+    </div>
+    <div class="map">
+        <div class="row-1">
+            <div class="field-1 sprite wall-corner-1"></div>
+            <div class="field-2 flip-angle-90 sprite wall-1"></div>
+            <div class="field-3 flip-angle-90 sprite wall-1"></div>
+            <div class="field-4 flip-angle-90 sprite wall-window-1"></div>
+            <div class="field-5 flip-angle-90 sprite wall-1"></div>
+            <div class="field-6 flip-angle-90 sprite wall-corner-1"></div>
+        </div>
+        <div class="row-2">
+            <div class="field-1 sprite wall-1"></div>
+            <div class="field-2 sprite floor-1"></div>
+            <div class="field-3 sprite floor-1"></div>
+            <div class="field-4">
+                <div class="sprite floor-1"></div>
+                <div class="sprite table-2 pc-table"></div>
+                <div class="sprite pc"></div>
+            </div>
+            <div class="field-5">
+                <div class="sprite floor-1"></div>
+                <div class="sprite table-2 pc-table"></div>
+                <div class="sprite monitor-1 monitor"></div>
+                <div class="sprite keyboard-1 keyboard"></div>
+            </div>
+            <div class="field-6 sprite wall-1"></div>
+        </div>
+        <div class="row-3">
+            <div class="field-1 sprite wall-window-1"></div>
+            <div class="field-2 sprite floor-1"></div>
+            <div class="field-3 sprite floor-1"></div>
+            <div class="field-4">
+                <div class="sprite floor-1"></div>
+                <div class="sprite chair-1 chair"></div>
+                <div class="sprite employee-frame-0 employee"></div>
+            </div>
+            <div class="field-5 sprite floor-1"></div>
+            <div class="field-6 sprite wall-1"></div>
+        </div>
+        <div class="row-4">
+            <div class="field-1 sprite wall-1"></div>
+            <div class="field-2">
+                <div class="sprite floor-1"></div>
+                <div class="sprite table-1 coffee-pizza-table"></div>
+                <div class="sprite coffee-frame-0 coffee hidden"></div>
+                <div class="sprite pizza-1 pizza"></div>
+            </div>
+            <div class="field-3 sprite floor-1"></div>
+            <div class="field-4 sprite floor-1"></div>
+            <div class="field-5 sprite floor-1"></div>
+            <div class="field-6 sprite wall-1"></div>
+        </div>
+        <div class="row-5">
+            <div class="field-1 sprite wall-1"></div>
+            <div class="field-2">
+                <div class="sprite floor-1"></div>
+                <div class="sprite refrigerator-1 refrigerator"></div>
+            </div>
+            <div class="field-3 sprite floor-1"></div>
+            <div class="field-4 sprite floor-1"></div>
+            <div class="field-5 sprite floor-1"></div>
+            <div class="field-6 sprite wall-doors-1"></div>
+        </div>
+        <div class="row-6">
+            <div class="field-1 flip-angle-minus-90 sprite wall-corner-1"></div>
+            <div class="field-2 flip-angle-90 sprite wall-1"></div>
+            <div class="field-3 flip-angle-90 sprite wall-1"></div>
+            <div class="field-4 flip-angle-90 sprite wall-1"></div>
+            <div class="field-5 flip-angle-90 sprite wall-1"></div>
+            <div class="field-6 flip-angle-180 sprite wall-corner-1"></div>
+        </div>
+    </div>
+    <div class="panel">
+    </div>
+    <div id="singleAudio"></div>
+    <script src="src/scripts/libs/require.js"></script>
+    <script>
+        require(['main']);
+    </script>
+    <script src="src/scripts/js/main.js"></script>
+</body>
+
+</html>

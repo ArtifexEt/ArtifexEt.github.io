@@ -1,0 +1,81 @@
+@keyframes employee {
+  0% {
+    background-position: -143px -143px;
+  }
+  20% {
+    background-position: -281px -143px;
+  }
+  40% {
+    background-position: -419px -143px;
+  }
+  60% {
+    background-position: -557px -143px;
+  }
+  80% {
+    background-position: -695px -143px;
+  }
+  100% {
+    background-position: -5px -281px;
+  }
+}
+
+@keyframes coffee {
+  0% {
+    background-position: -281px -5px;
+  }
+
+  30% {
+    background-position: -419px -5px;
+  }
+
+  50% {
+    background-position: -557px -5px;
+  }
+
+  70% {
+    background-position: -695px -5px;
+  }
+
+  100% {
+    background-position: -5px -143px;
+  }
+}
+
+@keyframes monitor {
+  0% {
+    background-position: -419px -557px;
+  }
+  20% {
+    background-position: -557px -557px;
+  }
+  40% {
+    background-position: -695px -557px;
+  }
+  60% {
+    background-position: -5px -695px;
+  }
+  80% {
+    background-position: -143px -695px;
+  }
+  100% {
+    background-position: -419px -557px;
+  }
+}
+
+@keyframes pc {
+  0% {
+    background-position: -281px -695px;
+  }
+  25% {
+    background-position: -419px -695px;
+  }
+  50% {
+    background-position: -557px -695px;
+  }
+  75% {
+    background-position: -695px -695px;
+  }
+  100% {
+    background-position: -281px -695px;
+  }
+}
